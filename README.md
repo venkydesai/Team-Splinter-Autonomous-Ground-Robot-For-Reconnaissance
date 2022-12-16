@@ -14,7 +14,7 @@ This repo contains all the working code and procudure for autonomous exlporation
 >    * [x]  ROS 1 Noetic Ninjemys
 >    * [ ]  ROS 2 Dashing Diademata
 >    * [ ]  ROS 2 Eloquent Elusor
->    * []  ROS 2 Foxy Fitzroy
+>    * [ ]  ROS 2 Foxy Fitzroy
 >    * [ ]  etc (Please specify your ROS Version here)
 > 3. SBC(Single Board Computer) working on TurtleBot3?
 >    
