@@ -23,8 +23,8 @@ For testing purposes, Apriltags were placed in the environment as victims and th
 > 3. SBC(Single Board Computer) working on TurtleBot3?
 >    
 >    * [ ]  Intel Joule 570x
->    * [x]  Raspberry Pi 3B+
->    * [ ]  Raspberry Pi 4
+>    * [ ]  Raspberry Pi 3B+
+>    * [x]  Raspberry Pi 4
 >    * [ ]  etc (Please specify your SBC here)
 > 4. OS installed on SBC?
 >    
@@ -126,6 +126,27 @@ sudo apt-get update && sudo apt-get upgrade
 ## Testing the setup.
 ****
 Follow the below steps to check if the setup os working properly or not. *Note: Don't forget to run roscore before bringing up the robot from SBC.
+Your directory setup might look like this.
+```console
+ap_ws/src/
+├── apriltag
+│   ├── CMake
+│   ├── common
+│   └── example
+└── apriltag_ros
+    └── apriltag_ros
+        ├── config
+        ├── docs
+        ├── include
+        │   └── apriltag_ros
+        ├── launch
+        ├── msg
+        ├── scripts
+        ├── src
+        └── srv
+        
+15 directories
+```
 **On SBC**
 ****
 ```console
@@ -170,3 +191,4 @@ roslaunch rrt_exploration single.launch #select 5 points and the robot should st
 ```
 Below is the output of the run. If you notice that the robot doesnot move in a continous manner, this was caused by synchronisation error and tag_detect.py code.
 https://northeastern-my.sharepoint.com/personal/desai_ven_northeastern_edu/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2Fdesai%5Fven%5Fnortheastern%5Fedu%2FDocuments%2FSplinter
+
