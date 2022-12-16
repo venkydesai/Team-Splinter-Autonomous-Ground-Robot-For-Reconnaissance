@@ -2,6 +2,7 @@
 
 # Autonomous Ground Robot For Reconnaissance using RRT Exploration.
 This repo contains all the working codes and procedures for autonomous exploration and SLAM. Below are the steps to successfully build the workspace. *~Team Splintler*
+
 For testing purposes, Apriltags were placed in the environment as victims and the main objective of the robot was to create an occupancy grid map of the environment and detect all the Apriltags along with their pose in the environment.
 ### System setup
 ****
@@ -84,6 +85,7 @@ source ~/.bashrc
 ```
 Download the tag_detec.py file from this repo and paste it in apriltag_ros/apriltag_ros/src and run catkin build.
 ### Installing Explore lite package (Optional, Just for benchmarking).
+****
 **ROS Noetic** uses explore lite package for greedy-based frontier exploration. More details can be found here http://wiki.ros.org/explore_lite
 ```console
 cd ~/catkin_ws/src 
