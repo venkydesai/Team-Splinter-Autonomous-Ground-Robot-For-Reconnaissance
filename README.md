@@ -23,8 +23,8 @@ For testing purposes, Apriltags were placed in the environment as victims and th
 > 3. SBC(Single Board Computer) working on TurtleBot3?
 >    
 >    * [ ]  Intel Joule 570x
->    * [ ]  Raspberry Pi 3B+
->    * [x]  Raspberry Pi 4
+>    * [x]  Raspberry Pi 3B+
+>    * [ ]  Raspberry Pi 4
 >    * [ ]  etc (Please specify your SBC here)
 > 4. OS installed on SBC?
 >    
