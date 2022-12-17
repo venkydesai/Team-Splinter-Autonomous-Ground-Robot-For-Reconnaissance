@@ -191,4 +191,4 @@ roslaunch rrt_exploration single.launch #select 5 points and the robot should st
 ```
 Below is the output of the run. If you notice that the robot doesnot move in a continous manner, this was caused by synchronisation error and tag_detect.py code.
 https://northeastern-my.sharepoint.com/personal/desai_ven_northeastern_edu/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2Fdesai%5Fven%5Fnortheastern%5Fedu%2FDocuments%2FSplinter
-
+Youtube - https://youtu.be/gg17nGIT8wM
