@@ -64,6 +64,8 @@ source devel/setup.bash # Source your ROS distro
 ### Installing AprilTag Ros Package.
 ****
 For apriltag detection, we will be using the apriltag_ros package which gives the pose and tag id of the detected tags in the environment. The apriltag_ros may sometimes cause an issue with the installed ros packages, hence for this reason we will be creating a separate workspace specifically for apriltag *This is a better option than creating everything in one workspace.*
+
+Alternatively you can run the apriltag_ws_build shell script from this repo by running ./apriltag_ws_build.sh
 https://github.com/AprilRobotics/apriltag_ros
 ****
 On RPC
